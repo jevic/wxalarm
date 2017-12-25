@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
 # Auth: jieyang <jieyang@gmail.com>
-# Version: 2.0
 #
 import os
 from werkzeug import secure_filename
