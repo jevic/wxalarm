@@ -1,4 +1,8 @@
-# 企业微信报警接口应用
+[![Docker Pulls](https://img.shields.io/docker/pulls/jevic/wxalarm.svg)](https://hub.docker.com/r/jevic/wxalarm)[![Docker Stars](https://img.shields.io/docker/stars/jevic/wxalarm.svg)](https://hub.docker.com/r/jevic/wxalarm)[![](https://images.microbadger.com/badges/image/jevic/wxalarm.svg)](https://microbadger.com/images/jevic/wxalarm "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/jevic/wxalarm.svg)](https://microbadger.com/images/jevic/wxalarm "Get your own version badge on microbadger.com")
+
+企业微信报警接口应用
+========
+
 ## 运行示例
 ```
 docker run -d --rm \
@@ -7,7 +11,7 @@ docker run -d --rm \
 -e CORPID="xxxx" \
 -e AGENTID=xxx \
 -p 51001:51001 \
-wxalarm:[tag]
+wxalarm:latest
 
 ```
 
