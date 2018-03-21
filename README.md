@@ -5,7 +5,7 @@
 
 ## 运行示例
 ```
-docker run -d --rm \
+docker run -d \
 --name wxalarm \
 -e SECRET="xxxx" \
 -e CORPID="xxxx" \
