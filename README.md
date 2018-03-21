@@ -11,7 +11,7 @@ docker run -d \
 -e CORPID="xxxx" \
 -e AGENTID=xxx \
 -p 51001:51001 \
-wxalarm:latest
+jevic/wxalarm:latest
 
 ```
 
